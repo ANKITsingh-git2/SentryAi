@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/sentry-ai.dir/src/main.cpp.o -o sentry-ai 
