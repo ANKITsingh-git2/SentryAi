@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/sentry-ai.dir/src/file_reader.cpp.o"
+  "CMakeFiles/sentry-ai.dir/src/file_reader.cpp.o.d"
   "CMakeFiles/sentry-ai.dir/src/main.cpp.o"
   "CMakeFiles/sentry-ai.dir/src/main.cpp.o.d"
   "sentry-ai"

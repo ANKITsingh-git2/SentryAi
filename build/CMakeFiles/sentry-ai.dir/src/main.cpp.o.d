@@ -226,4 +226,5 @@ CMakeFiles/sentry-ai.dir/src/main.cpp.o: \
  /usr/include/c++/11/bits/fs_fwd.h /usr/include/c++/11/chrono \
  /usr/include/c++/11/ratio /usr/include/c++/11/bits/parse_numbers.h \
  /usr/include/c++/11/bits/fs_path.h /usr/include/c++/11/codecvt \
- /usr/include/c++/11/bits/fs_dir.h /usr/include/c++/11/bits/fs_ops.h
+ /usr/include/c++/11/bits/fs_dir.h /usr/include/c++/11/bits/fs_ops.h \
+ /home/ankit/Desktop/projects/sentry-ai/src/../include/file_reader.h

@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/sentry-ai.dir/src/main.cpp.o -o sentry-ai 
+/usr/bin/c++ CMakeFiles/sentry-ai.dir/src/main.cpp.o CMakeFiles/sentry-ai.dir/src/file_reader.cpp.o -o sentry-ai 
