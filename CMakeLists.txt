@@ -12,4 +12,4 @@ include_directories(include)
 
 # Define the Executable
 # We tell CMake: "Make an executable named 'sentry-ai' using 'src/main.cpp'"
-add_executable(sentry-ai src/main.cpp)
+add_executable(sentry-ai src/main.cpp src/file_reader.cpp)

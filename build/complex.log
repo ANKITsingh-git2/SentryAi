@@ -1,0 +1,6 @@
+[INFO] 10:00:01 System boot
+[INFO] 10:00:02 Loading drivers
+[INFO] 10:00:03 Network init...
+[WARN] 10:00:04 High latency detected
+[ERROR] 10:00:05 Connection Timeout to DB
+[INFO] 10:00:06 Retry attempt 1
