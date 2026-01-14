@@ -153,6 +153,11 @@ CMakeFiles/sentry-ai.dir/src/file_reader.cpp.o: ../src/file_reader.cpp \
   /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
   /usr/include/c++/11/bits/charconv.h \
   /usr/include/c++/11/bits/basic_string.tcc \
+  /usr/include/c++/11/vector \
+  /usr/include/c++/11/bits/stl_uninitialized.h \
+  /usr/include/c++/11/bits/stl_vector.h \
+  /usr/include/c++/11/bits/stl_bvector.h \
+  /usr/include/c++/11/bits/vector.tcc \
   /usr/include/c++/11/iostream \
   /usr/include/c++/11/ostream \
   /usr/include/c++/11/ios \
@@ -186,7 +191,10 @@ CMakeFiles/sentry-ai.dir/src/file_reader.cpp.o: ../src/file_reader.cpp \
   /usr/include/c++/11/bits/codecvt.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
-  /usr/include/c++/11/bits/fstream.tcc
+  /usr/include/c++/11/bits/fstream.tcc \
+  /usr/include/c++/11/deque \
+  /usr/include/c++/11/bits/stl_deque.h \
+  /usr/include/c++/11/bits/deque.tcc
 
 CMakeFiles/sentry-ai.dir/src/main.cpp.o: ../src/main.cpp \
   /usr/include/stdc-predef.h \
@@ -523,6 +531,8 @@ CMakeFiles/sentry-ai.dir/src/main.cpp.o: ../src/main.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/math-vector.h:
 
+/usr/include/c++/11/algorithm:
+
 /usr/include/stdlib.h:
 
 /usr/include/c++/11/bits/string_view.tcc:
@@ -585,15 +595,13 @@ CMakeFiles/sentry-ai.dir/src/main.cpp.o: ../src/main.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/endian.h:
 
-/usr/include/x86_64-linux-gnu/gnu/stubs.h:
-
 /usr/include/c++/11/backward/binders.h:
 
 /usr/include/x86_64-linux-gnu/bits/time.h:
 
 /usr/include/x86_64-linux-gnu/bits/select.h:
 
-/usr/include/c++/11/algorithm:
+/usr/include/c++/11/bits/deque.tcc:
 
 /usr/include/x86_64-linux-gnu/bits/endianness.h:
 
@@ -722,6 +730,8 @@ CMakeFiles/sentry-ai.dir/src/main.cpp.o: ../src/main.cpp \
 /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
+
+/usr/include/c++/11/deque:
 
 /usr/include/stdc-predef.h:
 
@@ -903,6 +913,30 @@ CMakeFiles/sentry-ai.dir/src/main.cpp.o: ../src/main.cpp \
 
 /usr/include/c++/11/bits/basic_string.tcc:
 
+/usr/include/c++/11/vector:
+
+/usr/include/c++/11/bits/align.h:
+
+/usr/include/c++/11/bits/stl_uninitialized.h:
+
+/usr/include/c++/11/backward/auto_ptr.h:
+
+/usr/include/c++/11/bits/stl_numeric.h:
+
+/usr/include/c++/11/bits/stl_vector.h:
+
+/usr/include/c++/11/system_error:
+
+/usr/include/c++/11/bits/fs_fwd.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
+
+/usr/include/c++/11/bits/stl_bvector.h:
+
+/usr/include/c++/11/bits/vector.tcc:
+
 /usr/include/c++/11/ostream:
 
 /usr/include/c++/11/bits/unique_ptr.h:
@@ -928,10 +962,6 @@ CMakeFiles/sentry-ai.dir/src/main.cpp.o: ../src/main.cpp \
 /usr/include/c++/11/bits/locale_classes.h:
 
 /usr/include/c++/11/bits/locale_classes.tcc:
-
-/usr/include/c++/11/system_error:
-
-/usr/include/c++/11/bits/stl_vector.h:
 
 /usr/include/c++/11/ios:
 
@@ -977,6 +1007,10 @@ CMakeFiles/sentry-ai.dir/src/main.cpp.o: ../src/main.cpp \
 
 /usr/include/c++/11/bits/fstream.tcc:
 
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+
+/usr/include/c++/11/bits/stl_deque.h:
+
 ../src/main.cpp:
 
 /usr/include/c++/11/bits/locale_facets_nonio.h:
@@ -1011,31 +1045,11 @@ CMakeFiles/sentry-ai.dir/src/main.cpp.o: ../src/main.cpp \
 
 /usr/include/c++/11/memory:
 
-/usr/include/c++/11/bits/stl_uninitialized.h:
-
-/usr/include/c++/11/backward/auto_ptr.h:
-
-/usr/include/c++/11/bits/stl_numeric.h:
-
 /usr/include/c++/11/bits/stl_raw_storage_iter.h:
-
-/usr/include/c++/11/bits/align.h:
-
-/usr/include/c++/11/vector:
 
 /usr/include/c++/11/bits/refwrap.h:
 
 /usr/include/c++/11/bits/shared_ptr_atomic.h:
-
-/usr/include/c++/11/bits/fs_fwd.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
-
-/usr/include/c++/11/bits/stl_bvector.h:
-
-/usr/include/c++/11/bits/vector.tcc:
 
 /usr/include/c++/11/bits/hashtable.h:
 
