@@ -484,8 +484,57 @@ CMakeFiles/sentry-ai.dir/src/main.cpp.o: ../src/main.cpp \
   /usr/include/c++/11/codecvt \
   /usr/include/c++/11/bits/fs_dir.h \
   /usr/include/c++/11/bits/fs_ops.h \
-  ../include/file_reader.h
+  ../include/file_reader.h \
+  ../include/json_helper.h \
+  ../include/json.hpp \
+  /usr/include/c++/11/cstddef \
+  /usr/include/c++/11/forward_list \
+  /usr/include/c++/11/bits/forward_list.h \
+  /usr/include/c++/11/bits/forward_list.tcc \
+  /usr/include/c++/11/valarray \
+  /usr/include/c++/11/bits/valarray_array.h \
+  /usr/include/c++/11/bits/valarray_array.tcc \
+  /usr/include/c++/11/bits/valarray_before.h \
+  /usr/include/c++/11/bits/slice_array.h \
+  /usr/include/c++/11/bits/valarray_after.h \
+  /usr/include/c++/11/bits/gslice.h \
+  /usr/include/c++/11/bits/gslice_array.h \
+  /usr/include/c++/11/bits/mask_array.h \
+  /usr/include/c++/11/bits/indirect_array.h \
+  /usr/include/c++/11/version \
+  /usr/include/c++/11/cassert \
+  /usr/include/assert.h \
+  /usr/include/c++/11/cstring \
+  /usr/include/string.h \
+  /usr/include/strings.h \
+  /usr/include/c++/11/any
 
+
+/usr/include/strings.h:
+
+/usr/include/assert.h:
+
+/usr/include/c++/11/cassert:
+
+/usr/include/c++/11/version:
+
+/usr/include/c++/11/bits/indirect_array.h:
+
+/usr/include/c++/11/bits/mask_array.h:
+
+/usr/include/c++/11/bits/gslice.h:
+
+/usr/include/c++/11/bits/valarray_after.h:
+
+/usr/include/c++/11/bits/slice_array.h:
+
+/usr/include/c++/11/bits/valarray_before.h:
+
+/usr/include/c++/11/bits/valarray_array.h:
+
+/usr/include/c++/11/valarray:
+
+../include/json_helper.h:
 
 /usr/include/c++/11/bits/fs_ops.h:
 
@@ -619,6 +668,8 @@ CMakeFiles/sentry-ai.dir/src/main.cpp.o: ../src/main.cpp \
 
 /usr/include/x86_64-linux-gnu/sys/select.h:
 
+/usr/include/c++/11/bits/gslice_array.h:
+
 /usr/include/c++/11/bits/stl_set.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h:
@@ -651,6 +702,10 @@ CMakeFiles/sentry-ai.dir/src/main.cpp.o: ../src/main.cpp \
 
 /usr/include/c++/11/cwchar:
 
+/usr/include/c++/11/bits/forward_list.h:
+
+../include/json.hpp:
+
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h:
 
 /usr/include/c++/11/initializer_list:
@@ -662,6 +717,8 @@ CMakeFiles/sentry-ai.dir/src/main.cpp.o: ../src/main.cpp \
 /usr/include/c++/11/ctime:
 
 /usr/include/c++/11/ext/type_traits.h:
+
+/usr/include/c++/11/forward_list:
 
 /usr/include/c++/11/pstl/glue_memory_defs.h:
 
@@ -740,6 +797,8 @@ CMakeFiles/sentry-ai.dir/src/main.cpp.o: ../src/main.cpp \
 /usr/include/x86_64-linux-gnu/bits/types.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
+
+/usr/include/c++/11/bits/forward_list.tcc:
 
 /usr/include/c++/11/chrono:
 
@@ -857,6 +916,8 @@ CMakeFiles/sentry-ai.dir/src/main.cpp.o: ../src/main.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
 
+/usr/include/c++/11/cstring:
+
 /usr/include/math.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
@@ -923,6 +984,8 @@ CMakeFiles/sentry-ai.dir/src/main.cpp.o: ../src/main.cpp \
 
 /usr/include/c++/11/bits/stl_numeric.h:
 
+/usr/include/c++/11/cstddef:
+
 /usr/include/c++/11/bits/stl_vector.h:
 
 /usr/include/c++/11/system_error:
@@ -938,6 +1001,8 @@ CMakeFiles/sentry-ai.dir/src/main.cpp.o: ../src/main.cpp \
 /usr/include/c++/11/bits/vector.tcc:
 
 /usr/include/c++/11/ostream:
+
+/usr/include/c++/11/any:
 
 /usr/include/c++/11/bits/unique_ptr.h:
 
@@ -973,9 +1038,13 @@ CMakeFiles/sentry-ai.dir/src/main.cpp.o: ../src/main.cpp \
 
 /usr/include/c++/11/stdexcept:
 
+/usr/include/string.h:
+
 /usr/include/c++/11/codecvt:
 
 /usr/include/c++/11/bits/streambuf.tcc:
+
+/usr/include/c++/11/bits/valarray_array.tcc:
 
 /usr/include/c++/11/bits/atomic_lockfree_defines.h:
 

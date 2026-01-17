@@ -1,15 +1,22 @@
 cmake_minimum_required(VERSION 3.10)
 
-# Project Name and Version
 project(SentryAI VERSION 1.0)
 
-# Specify the C++ Standard (C++17 is great for modern file handling)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
-# Add the 'src' directory to the build path
 include_directories(include)
 
-# Define the Executable
-# We tell CMake: "Make an executable named 'sentry-ai' using 'src/main.cpp'"
-add_executable(sentry-ai src/main.cpp src/file_reader.cpp)
+# 1. FIND the library on your system
+find_package(CURL REQUIRED)
+
+# 2. Add source files
+add_executable(sentry-ai src/main.cpp src/file_reader.cpp src/http_client.cpp)
+
+# 3. LINK the library to the executable
+if(CURL_FOUND)
+    target_link_libraries(sentry-ai CURL::libcurl)
+    include_directories(${CURL_INCLUDE_DIR})
+else()
+    message(FATAL_ERROR "Could not find libcurl. Please install it.")
+endif()

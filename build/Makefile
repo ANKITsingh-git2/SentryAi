@@ -153,6 +153,30 @@ src/file_reader.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sentry-ai.dir/build.make CMakeFiles/sentry-ai.dir/src/file_reader.cpp.s
 .PHONY : src/file_reader.cpp.s
 
+src/http_client.o: src/http_client.cpp.o
+.PHONY : src/http_client.o
+
+# target to build an object file
+src/http_client.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sentry-ai.dir/build.make CMakeFiles/sentry-ai.dir/src/http_client.cpp.o
+.PHONY : src/http_client.cpp.o
+
+src/http_client.i: src/http_client.cpp.i
+.PHONY : src/http_client.i
+
+# target to preprocess a source file
+src/http_client.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sentry-ai.dir/build.make CMakeFiles/sentry-ai.dir/src/http_client.cpp.i
+.PHONY : src/http_client.cpp.i
+
+src/http_client.s: src/http_client.cpp.s
+.PHONY : src/http_client.s
+
+# target to generate assembly for a file
+src/http_client.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sentry-ai.dir/build.make CMakeFiles/sentry-ai.dir/src/http_client.cpp.s
+.PHONY : src/http_client.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -189,6 +213,9 @@ help:
 	@echo "... src/file_reader.o"
 	@echo "... src/file_reader.i"
 	@echo "... src/file_reader.s"
+	@echo "... src/http_client.o"
+	@echo "... src/http_client.i"
+	@echo "... src/http_client.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
