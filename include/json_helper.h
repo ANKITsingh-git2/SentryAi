@@ -18,7 +18,7 @@ std::string create_groq_payload(const LogEntry& log) {
     // 2. Build the JSON object structure
     // Notice how similar this looks to Python dictionaries!
     json payload = {
-        {"model", "llama3-8b-8192"},
+        {"model", "llama-3.1-8b-instant"},
         {"messages", {
             {
                 {"role", "user"},
