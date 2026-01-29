@@ -129,6 +129,30 @@ sentry-ai/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sentry-ai.dir/build.make CMakeFiles/sentry-ai.dir/build
 .PHONY : sentry-ai/fast
 
+src/env_loader.o: src/env_loader.cpp.o
+.PHONY : src/env_loader.o
+
+# target to build an object file
+src/env_loader.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sentry-ai.dir/build.make CMakeFiles/sentry-ai.dir/src/env_loader.cpp.o
+.PHONY : src/env_loader.cpp.o
+
+src/env_loader.i: src/env_loader.cpp.i
+.PHONY : src/env_loader.i
+
+# target to preprocess a source file
+src/env_loader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sentry-ai.dir/build.make CMakeFiles/sentry-ai.dir/src/env_loader.cpp.i
+.PHONY : src/env_loader.cpp.i
+
+src/env_loader.s: src/env_loader.cpp.s
+.PHONY : src/env_loader.s
+
+# target to generate assembly for a file
+src/env_loader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sentry-ai.dir/build.make CMakeFiles/sentry-ai.dir/src/env_loader.cpp.s
+.PHONY : src/env_loader.cpp.s
+
 src/file_reader.o: src/file_reader.cpp.o
 .PHONY : src/file_reader.o
 
@@ -210,6 +234,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... sentry-ai"
+	@echo "... src/env_loader.o"
+	@echo "... src/env_loader.i"
+	@echo "... src/env_loader.s"
 	@echo "... src/file_reader.o"
 	@echo "... src/file_reader.i"
 	@echo "... src/file_reader.s"

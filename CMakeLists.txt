@@ -11,7 +11,7 @@ include_directories(include)
 find_package(CURL REQUIRED)
 
 # 2. Add source files
-add_executable(sentry-ai src/main.cpp src/file_reader.cpp src/http_client.cpp)
+add_executable(sentry-ai src/main.cpp src/file_reader.cpp src/http_client.cpp src/env_loader.cpp)
 
 # 3. LINK the library to the executable
 if(CURL_FOUND)

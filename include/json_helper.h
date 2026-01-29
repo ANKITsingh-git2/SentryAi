@@ -31,3 +31,21 @@ std::string create_groq_payload(const LogEntry& log) {
     return payload.dump(); 
 }
 
+std::string parse_groq_response(const std::string& raw_json) {
+    try {
+        // 1. Parse the string into a JSON object
+        auto json_data = json::parse(raw_json);
+        
+        // 2. Navigate the path: choices -> [0] -> message -> content
+        // This matches the structure you saw in your terminal output!
+        if (json_data.contains("choices") && !json_data["choices"].empty()) {
+            return json_data["choices"][0]["message"]["content"];
+        } else if (json_data.contains("error")) {
+            return "API Error: " + json_data["error"]["message"].get<std::string>();
+        }
+        return "Error: Unexpected JSON format.";
+    } catch (const std::exception& e) {
+        return "JSON Parsing Error: " + std::string(e.what());
+    }
+}
+
