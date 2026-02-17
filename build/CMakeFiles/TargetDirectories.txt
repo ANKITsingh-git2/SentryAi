@@ -1,3 +1,0 @@
-/home/ankit/Desktop/projects/sentry-ai/build/CMakeFiles/sentry-ai.dir
-/home/ankit/Desktop/projects/sentry-ai/build/CMakeFiles/edit_cache.dir
-/home/ankit/Desktop/projects/sentry-ai/build/CMakeFiles/rebuild_cache.dir
