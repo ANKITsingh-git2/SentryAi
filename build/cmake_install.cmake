@@ -1,4 +1,3 @@
-# Install script for directory: /home/ankit/Desktop/projects/sentry-ai
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
